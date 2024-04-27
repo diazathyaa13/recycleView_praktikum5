@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/gedung_fkom"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:text="Fakultas Ilmu Komputer"
+        android:textSize="18dip" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAlignment="viewStart"
+        android:text="Merupakan salah satu fakultas di Universitas Kuningan yang berfokus pada bidang teknologi komputer, didalamnya terdapat 4 program studi yaitu S1 Sistem Informasi, S1 Teknik Informatika, S1 Desain Komunikasi Visual dan D3 Manajemen Informatika"
+        android:textSize="18dip"
+        android:gravity="start" />
+
+</LinearLayout>

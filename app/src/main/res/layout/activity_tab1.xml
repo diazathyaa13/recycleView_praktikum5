@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/gedung_uniku"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:text="Universitas Kuningan"
+        android:textSize="18dip" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAlignment="viewStart"
+        android:text="Merupakan kampus terbaik di Kabupaten Kuningan, terdapat 5 Fakultas (Fakultas Ekonomi, Fakultas Hukum, Fakultas Ilmu Komputer, Fakultas Keguruan dan Ilmu Pendidikan, dan Fakultas Kehutanan"
+        android:textSize="18dip"
+        android:gravity="start" />
+
+</LinearLayout>
